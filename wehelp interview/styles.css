@@ -1,0 +1,103 @@
+/*注意css不須再加style tag*/
+/*字型部分需注意是否為襯字字型sans-serif*/
+header{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #000;
+}
+.headerA {
+    margin-left:0px ;
+    font-family: 'Chakra Petch', sans-serif;
+    justify-content: space-between;
+    text-align: center;
+    width: 30%;
+    line-height:300%;
+    font-size: 16px;
+    color: #000;
+    font-weight: bold;
+    background-color: #fff;
+}
+.headerB {
+    display:flex;
+    flex-direction: column;
+    font-family: 'Chakra Petch', sans-serif;
+    justify-content: space-between;
+    text-align: left;
+    width: 70%;
+    line-height: 150%;
+    font-size: 8px;
+    color: #fff;
+    font-weight: bold;
+    background-color: #000;
+}
+.container{
+    display: flex;
+    background-color: #000;
+}
+ul{
+    list-style-type:none ;
+}
+.question-list{
+    display:flex;
+    flex-direction: column;
+    font-family: 'Orbitron', sans-serif;
+    font-family: 'Noto Sans TC', sans-serif;
+    text-align: left;
+    width: 30%;
+    color: #000;
+    font-weight: bold;
+    background-color: #fff;
+}
+.question-list-inner{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+.list-item{
+    margin-top: 1rem;
+    width:auto;
+    line-height: 100%;
+}
+.list-item-word{
+    font-family: 'Orbitron@100', sans-serif;
+}
+.container-inner{
+    font-family: 'Orbitron', sans-serif;
+    font-family: 'Noto Sans TC@500', sans-serif;
+    text-align: center;
+    margin-top: 1rem;
+    width: 70%;
+    color: #fff;
+    font-weight: bold;
+    }
+.title{   
+    color: #000;
+    font-weight: bold;
+    background-color: #fff;
+}
+.container-inner li {
+    list-style-type: none;
+    text-align: left;
+    margin-left: 1rem;
+}
+ul.Q2 {
+    border: 1px solid white; /* 将列表框的边框颜色设置为白色 */
+    width: 80%;
+  }
+li.Q2 {
+  border: 1px solid white; /* 将列表框的边框颜色设置为白色 */
+}
+table.Q2 {
+    border: 1px solid white; /* 设置表格的边框样式为实线黑色边框 */
+    width: 80%;
+  }
+  td {
+    border: 1px solid white; /* 设置单元格的边框样式为实线黑色边框 */
+  }
+  #section1,#section2,#section3,#section4,#section5,#section6,#section7{
+    scroll-margin-top: -100vh; /* 负视口高度，根据需要调整值 */
+  }
